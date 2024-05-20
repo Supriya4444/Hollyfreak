@@ -44,4 +44,3 @@ else:
 st.caption(':blue[_Hope this is helpful_]:sunglasses:')
 
 
-st.image('C:\\Users\\Supriya\\OneDrive\\Pictures\\Camera Roll\\jnina.jpg',width=700)
