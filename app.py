@@ -23,6 +23,7 @@ movies = pd.DataFrame(movie_dict)
 
 llr = pickle.load(open('llr.pkl', 'rb'))
 
+st.image('C:\\Users\\Supriya\\OneDrive\\Pictures\\Camera Roll\\woooood.jpg')
 
 st.title(":red[Movies Recommendation System]")
 option = st.selectbox(
