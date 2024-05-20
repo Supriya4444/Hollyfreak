@@ -43,4 +43,3 @@ else:
     st.write("Please select movie name!")
 st.caption(':blue[_Hope this is helpful_]:sunglasses:')
 
-
