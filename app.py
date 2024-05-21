@@ -24,8 +24,6 @@ movies = pd.DataFrame(movie_dict)
 llr = pickle.load(open('llr.pkl', 'rb'))
 
 
-st.image('C:\\Users\\Supriya\\OneDrive\\Pictures\\Camera Roll\\woooood.jpg',width=750)
-
 st.title(":red[Movies Recommendation System]")
 option = st.selectbox(
     'Select any movie from the provided list to get recommendations : ',
@@ -45,5 +43,3 @@ else:
     st.write("Please select movie name!")
 st.caption(':blue[_Hope this is helpful_]:sunglasses:')
 
-
-st.image('C:\\Users\\Supriya\\OneDrive\\Pictures\\Camera Roll\\jnina.jpg',width=700)
